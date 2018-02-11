@@ -1,0 +1,139 @@
+/* style principal */
+a:link { color: #2E8B57  ;}  
+a:visited { color: #2E8B57	;} 
+a:hover {	color: #FFFF00	;} 
+
+a{
+	text-decoration : none;
+}
+fieldset{
+	border-color : green;
+	background-image : url(../images/fond_fieldset.jpg);
+}
+
+legend{
+	font-size : 30px;
+	color:green;
+}
+
+body{
+	background-image : url(../images/fond.jpg);
+	background-repeat : repeat;
+	color : #FFFFFF ;
+}
+
+
+/* Les class */
+.decale_droite{
+	margin-left : 30%;
+}
+
+.decale_gauche{
+	margin-right : 30%;
+}
+
+.legend_petit{
+	font-size : 25px;
+}
+
+.tab_style_1{ 
+	border: medium solid #6495ed;
+	width: 100%;
+}
+
+.tab_style_1 td, th {
+	border: thin solid #6495ed;
+	width: 33%;
+	text-align : center;
+}
+
+.tab_style_2{
+	width: 100%;
+}
+
+.tab_style_3{ 
+	width: 100%;
+}
+
+.tab_style_3 td, th {
+	width: 50%;
+	text-align : center;
+}
+
+
+.bouton_perso{
+	background:url(../images/bouton_perso.jpg);
+	border : solid 1px green;
+	color:green;
+	font-size : 100%;
+	text-align : center;
+	width : 30%;
+	padding : 4px;
+}
+
+.bouton_perso:hover{
+	color : yellow;
+	border : solid 1px yellow;
+}
+
+.fleche_gauche{
+	float : left;
+
+}
+
+.fleche_droite{
+	float : right;
+}
+
+.image_impair{
+	width : 49%;
+	float : left;
+	margin-bottom : 2%;
+	border : solid 1px green;
+}
+
+.image_pair{
+	width : 49%;
+	float : right;
+	margin-bottom : 2%;
+	border : solid 1px green;
+}
+
+.purple td,th{
+	border-color: #5A32A9;
+}
+
+/* Les id */
+#header{
+	text-align : center;
+	margin-bottom :5%;
+	color:green;
+}
+
+#footer{
+	text-align : center;
+	margin-top :5%;
+}
+
+#moi{
+	float:right;
+	border : solid green;
+}
+
+#accueil{
+	margin-left: 35% ;
+	margin-right : 35%; 
+        margin-top : 3px ;
+	border-top : none;
+	background-image : url(../images/fond_sombre.jpg);
+}
+
+
+
+
+
+
+
+
+
+
